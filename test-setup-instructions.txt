@@ -1,0 +1,5 @@
+Create two sites in IIS:
+	The main one (that would be an example of the "public" website), pointing to the 'iisproxy' folder as root.
+	The second one is an example of the site that is being proxied (that would be available at "localhost:9000", etc.), pointing to the 'test-proxy' folder as root.
+	Update app settings in the iisproxy/web.config to point to the URL of the test proxy site.
+	
